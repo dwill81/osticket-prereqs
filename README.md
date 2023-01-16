@@ -85,3 +85,8 @@ Install/Enable Internet "Internet Information Services" (IIS) in windows: contro
 11. You should see a congratulations screen in the browser window if everything was done correctly. Help desk tickets are now able to be created and assigned.
 </p>
 <br />
+
+<img width="707" alt="Screenshot 2023-01-15 200435" src="https://user-images.githubusercontent.com/122701786/212579185-8929e2d9-1170-4387-a3b2-226635346f1c.png">
+
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/122701786/212580509-b093a742-8185-4b58-b70f-89d383182846.png">
+
