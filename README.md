@@ -14,7 +14,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (22H2)
+- Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="311" alt="image" src="https://user-images.githubusercontent.com/122701786/212573696-96a8e587-f9f8-4179-9a5b-da04790c9fe3.png">
 </p>
 <p>
-Create a "Virtual Machine" with Azure and "Remote Desktop" into the created VM. 
+1. Create a "Virtual Machine" with Azure and "Remote Desktop" into the created VM. 
 </p>
 <br />
 
@@ -37,18 +37,20 @@ Create a "Virtual Machine" with Azure and "Remote Desktop" into the created VM.
 <img src="https://imgur.com/n9ibcLa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install/Enable Internet "Internet Information Services" (IIS) in windows: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
+2. Install/Enable Internet "Internet Information Services" (IIS) in windows: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
 
 
-6. Install osTicket v1.15.8.
 </p>
+3. Install osTicket v1.15.8.
+</p>
+
 <br />
 
 <p>
 <img src="https://i.imgur.com/SbhSS6V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-7. Go Back To IIS, Sites->Default->osTicket, Double click PHP Manager, Enable PHP_imap.dll, Enable PHP_intl.dll, Enable PHP_opcache.dll
+4. Go Back To IIS, Sites->Default->osTicket, Double click PHP Manager, Enable PHP_imap.dll, Enable PHP_intl.dll, Enable PHP_opcache.dll
 </p>
 <br />
 
@@ -56,7 +58,7 @@ Install/Enable Internet "Internet Information Services" (IIS) in windows: contro
 <img src="https://i.imgur.com/wVSvcC6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-8. Rename File To OST-Config.PHP And Assign Permissions To File.
+5. Rename File To OST-Config.PHP And Assign Permissions To File.
 </p>
 <br />
 
@@ -64,7 +66,7 @@ Install/Enable Internet "Internet Information Services" (IIS) in windows: contro
 <img src="https://i.imgur.com/U0zZqC1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-9. Continue Setting Up OsTicket In Browser.
+6. Continue Setting Up OsTicket In Browser.
   -Name Help Desk
   -Add Default Email
 </p>
@@ -74,7 +76,7 @@ Install/Enable Internet "Internet Information Services" (IIS) in windows: contro
 <img src="https://i.imgur.com/IdTzZWd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-10. Download And Install HeidiSQL.
+7. Download And Install HeidiSQL.
 </p>
 <br />
 
@@ -82,7 +84,7 @@ Install/Enable Internet "Internet Information Services" (IIS) in windows: contro
 <img src="https://i.imgur.com/0LOpcLJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-11. You should see a congratulations screen in the browser window if everything was done correctly. Help desk tickets are now able to be created and assigned.
+8. You should see a congratulations screen in the browser window if everything was done correctly. Help desk tickets are now able to be created and assigned.
 </p>
 <br />
 
