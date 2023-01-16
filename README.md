@@ -41,6 +41,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 </p>
+<p>
+<img src="https://i.imgur.com/8ob8uQq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 3. Install osTicket v1.15.8.
 </p>
 
